@@ -1,44 +1,53 @@
 # Mission 3 — Understand the operating system
 
-
-> AI-assisted answer notes. System values below were recorded in this session; no private account name or device identifiers are included.
-
+> AI-assisted answer notes. Device and system values below were recorded in this session; private account details are omitted.
 
 ## 1. Task / objective
-Complete the tasks listed in this mission of the Digital Detective assignment.
+Describe operating-system functions and record privacy-safe system observations.
 
+## 2. System observations
 
-## 2. Work completed and answer notes
+| Item | Observation |
+|---|---|
+| Operating system | macOS 27.0.1. Hardware model not recorded. |
+| Python and Git | Python 3.14.7; Git 2.55.0. |
+| Account identity | Omitted from this public report for privacy. |
+| Storage | Root filesystem: approximately 926.3 GiB total, 12.7 GiB used, 751.5 GiB available in this session. |
+| Running processes | No list obtained. macOS returned “operation not permitted” for process-list attempts. |
 
+A process is a running instance of a program. A PID is the number the operating system assigns to distinguish one process from another.
 
-## 3.1 System observations (must come from your computer)
+## 3. Paths and permissions
 
+An absolute path begins at the filesystem root. A relative path is interpreted from the current directory. Example relative path: mission-03-operating-system/README.md. For mission-02-terminal/terminal-practice/notes.txt, owner permissions were rw-: read and write, without execute permission. In permission letters, r means read, w means write, and x means execute or traverse.
 
-| Information | What it tells you | Your privacy-safe observation |
+## 4. Operating-system responsibilities
+
+| Responsibility | What it does | Example |
 |---|---|---|
-| OS and system details | OS family/version and hardware/software environment | macOS 27.0.1. Python 3.14.7 and Git 2.55.0 were also available. Hardware model not recorded. |
-| Current account identity | Which account is running the shell | The account name was not included in the public report for privacy. |
-| Available and used storage | Disk capacity and space in use/free | For the root filesystem: approximately 926.3 GiB total, 12.7 GiB used, and 751.5 GiB available in this session. |
-| System activity snapshot | Processes active at that moment | Not available: macOS denied both process-list attempts with “operation not permitted”; no process snapshot is claimed. |
+| Process management | Starts programs, shares CPU time, stops programs. | Sharing CPU time between apps. |
+| Memory management | Allocates RAM to programs and their active data. | Keeping browser tabs active. |
+| Device management | Coordinates software and hardware through drivers and services. | Sending a print job. |
+| File management | Organizes files and controls how they are stored and accessed. | Saving a document in a folder. |
+| User interface and shell | Lets people control the computer through windows or commands. | Opening an app or running pwd. |
+| Security and permissions | Controls access to files, accounts, and system resources. | Requiring permission to access protected data. |
 
+## 5. Commands and tools recorded
 
-A process is a running instance of a program. A PID (process identifier) is the number the operating system assigns to distinguish a process. Examples that may appear are a browser process and a text-editor process; report only ones you actually see.
+sw_vers checked the macOS version; python3 --version and git --version checked software versions; storage was inspected for the root filesystem. Process-list commands were blocked by macOS permissions.
 
+## 6. AI-assisted explanation
 
-## 3.3 Paths and permissions
+The operating system manages hardware resources and provides services that applications use. Processes are running programs; permissions determine which actions accounts and applications can perform.
 
+## 7. Difficulty and resolution
 
-An absolute path starts at the filesystem root and identifies a location independently of the current directory. A relative path is interpreted from the current directory. Examples: absolute `[REDACTED]/assignment/mission-03/README.md`; relative `mission-03-operating-system/README.md`. For `mission-02-terminal/terminal-practice/notes.txt`, owner permissions were `rw-` (read/write, not executable). In permission letters, `r` means read, `w` write, and `x` execute or traverse.
+The operating system blocked process-list access. No list is claimed and no security setting was changed.
 
+## 8. Commit details
 
-## 3.4 Operating-system responsibilities
+The Mission 3 folder was committed as “Document operating system and file management.” This factual update was committed separately on main as “Complete verified operating system observations.”
 
+## 9. Evidence
 
-| Responsibility | Explanation | Example |
-|---|---|---|
-| Process management | Starts programs, schedules their CPU time, and stops them. | Sharing CPU time between a browser and editor. |
-| Memory management | Allocates RAM to programs and keeps their active data organized. | Giving a browser memory for open tabs. |
-| Device management | Coordinates communication with hardware through drivers and system services. | Sending a print job to a printer. |
-| File management | Organizes files and folders and controls how they are stored and accessed. | Saving a document into a chosen folder. |
-| User interface / shell | Lets a person control the computer through windows, menus, or typed commands. | Opening an app or running `pwd` in Terminal. |
-| Security and permissions | Controls access to accounts, files, and system resources. | Requiring permission before an app accesses protected data. |
+Privacy-safe system values are recorded above. No account name, full device path, or process list is published.
