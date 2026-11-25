@@ -7,14 +7,14 @@
 | Command | Purpose |
 |---|---|
 | pwd | Print the current folder. |
-| ls / ls -la | List visible files / detailed entries including hidden files and permissions. |
+| ls; ls -la | List visible files; the detailed form includes hidden entries and permissions. |
 | cd .. | Move to the parent folder. |
 | mkdir name | Create a directory. |
 | touch file | Create an empty file. |
 | cp source destination | Copy a file. |
 | mv source destination | Move or rename a file. |
 | cat file | Display a text file. |
-| ls -la | head -n 5 | Pipe the listing to head to display only five lines. |
+| ls -la piped to head -n 5 | Show only the first five lines of a detailed listing. |
 
 ## Actual file practice
 
