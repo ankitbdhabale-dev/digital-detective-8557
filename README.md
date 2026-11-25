@@ -1,8 +1,8 @@
 # The Digital Detective
 
-A mission-based exploration of computer systems, command-line tools, programming, data representation, Git/GitHub, and networking.
+A mission-based exploration of computer systems, Terminal tools, programming, data representation, Git/GitHub, and networking.
 
-> This repository currently contains draft learning notes and starter programs. Before submission, verify every device/network observation, rewrite explanations in your own words, complete the GitHub branch/PR tasks, and replace every bracketed prompt. The assignment requests separate mission commits and real evidence.
+> These pages are study notes and examples prepared with assistance. The assignment asks for individual work: verify the observations on your own computer and rewrite explanations and reflections in your own words before submitting.
 
 ## Mission index
 
@@ -22,12 +22,12 @@ IPOS, hardware and software, Terminal commands, safe file handling, operating sy
 
 ## Run the number converter
 
-From `mission-05-numbers-data/`, run `python3 number_converter.py`, enter a non-negative integer, and compare the output with manual conversion.
+From mission-05-numbers-data/, run python3 number_converter.py, enter a non-negative integer, and compare the output with manual conversion.
 
 ## Learning summary
 
-[Write a short summary of what you personally learned after completing and verifying the missions.]
+Complete this section in your own words after reviewing and verifying the missions.
 
 ## Completion status
 
-Draft in progress. Add your actual observations, evidence, commits, push status, and repository URL after verifying them.
+The mission folders and commits are published in this public repository. The Mission 6 branch update-about has an open, unmerged Pull Request: https://github.com/ankitbdhabale-dev/digital-detective-8557/pull/1. Personal observations and reflections still need your review, and the repository URL still needs to be submitted through the instructor's form.
