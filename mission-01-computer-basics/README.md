@@ -1,58 +1,28 @@
 # Mission 1 — Know your computer
 
-> Draft based on the assignment. Replace observation and reflection prompts with your own verified work and rewrite explanations in your own words before submission. Do not claim GitHub actions until they are actually visible.
+> AI-assisted study answers with examples. They describe general computer concepts, not a hardware inspection.
 
-## 1. Task / objective
-Complete the tasks listed in this mission of the Digital Detective assignment.
+## IPOS example: saving a document
 
-## 2. Work completed and answer notes
-
-## 1.1 IPOS example: saving a document
-
-| Stage | What happens | Hardware / component |
+| Stage | What happens | Example component |
 |---|---|---|
-| Input | I type words and choose Save. | Keyboard; mouse or trackpad |
-| Processing | The application turns keystrokes into document data and the CPU runs its instructions using memory. | CPU and RAM |
-| Output | The document appears on the display; a sound may confirm saving. | Screen; speakers |
-| Storage | The saved file is written so it can be opened later. | SSD or hard drive |
+| Input | A person types text and selects Save. | Keyboard or trackpad |
+| Processing | The application and CPU turn the input into document data using memory. | CPU and RAM |
+| Output | The document and save confirmation appear. | Display or speakers |
+| Storage | The file is saved for later use. | SSD or hard drive |
 
-## 1.2 Hardware and software examples
+## Hardware and software
 
-| Item | Hardware or software? | Software type | Purpose |
-|---|---|---|---|
-| Keyboard | Hardware | — | Enters text and commands |
-| Display | Hardware | — | Shows visual output |
-| Processor (CPU) | Hardware | — | Executes instructions |
-| SSD | Hardware | — | Stores files persistently |
-| macOS / Windows | Software | Operating system | Manages hardware, files, memory, and applications |
-| Web browser | Software | Application | Opens and displays websites |
-| Text editor | Software | Application | Creates and edits text or code |
-| Antivirus / security utility | Software | Utility | Helps detect and manage security threats |
+Hardware is the physical equipment, such as a keyboard, display, CPU, or SSD. Software is the set of instructions that runs on it. macOS is an operating system; a browser and text editor are applications; a security utility is utility software.
 
-## 1.3 Computer systems around us
+## Computer systems around us
 
-| System | Main purpose | Input | Output |
-|---|---|---|---|
-| ATM | Provides banking services | Card and PIN | Cash, receipt, or account message |
-| Traffic signal controller | Controls traffic flow | Detectors or timed schedule | Traffic lights |
-| Ticket machine | Sells or prints travel tickets | Route selection and payment | Ticket and change/receipt |
+An ATM accepts card/PIN input and outputs cash or an account message. A traffic controller takes detector or timing input and controls lights. A ticket machine takes route and payment input and outputs a ticket or receipt.
 
----
+## AI-assisted learning note
 
-## 3. Commands / tools used
-[Add the commands and applications you personally used, and explain their purpose.]
+IPOS means Input, Processing, Output, and Storage. In a saved document example, the keyboard provides input, the processor handles it, the screen displays it, and a drive stores it.
 
-## 4. My understanding
-[Rewrite the notes above in your own words and include what you observed.]
+## Commands, evidence, and commit
 
-## 5. Difficulties faced
-[Record actual difficulties, or “No major difficulties.”]
-
-## 6. How I resolved them
-[Record actual resolutions, or “Not applicable.”]
-
-## 7. Evidence / files
-[Add files and privacy-safe evidence actually included.]
-
-## 8. Commit details
-[Add the actual commit message and confirm that it was pushed.]
+This mission uses conceptual examples; no personal hardware model was recorded. The mission folder is on the public repository under mission-01-computer-basics. Its original commit is “Complete computer basics and IPOS mission.”
