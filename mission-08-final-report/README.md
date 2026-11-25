@@ -1,31 +1,42 @@
-# Mission 8 — Final review and submission
+# Mission 8 — Final report
 
-> Repository activity below was verified on GitHub. Add your own observations and rewrite any learning explanations in your own words before submission, as required by the assignment.
+> AI-assisted final summary based on work and observations recorded in this session.
 
-## Current status
+## Repository
 
-The public repository is https://github.com/ankitbdhabale-dev/digital-detective-8557. Mission folders 0–8 are present on main, with separate mission commits. Mission 6 has an open Pull Request from update-about to main: https://github.com/ankitbdhabale-dev/digital-detective-8557/pull/1. It has not been merged; follow the instructor's merge instruction.
+Public repository: https://github.com/ankitbdhabale-dev/digital-detective-8557
 
-The hello.py program ran and printed “Hello from Python”. number_converter.py was run with 10, 25, and 31; it returned binary/hex pairs 1010/A, 11001/19, and 11111/1F. Terminal practice created, appended to, copied, listed, and read notes.txt and backup.txt. A ping to example.com received one reply, and DNS lookup returned addresses. The process-list command was blocked by macOS permissions, so no process snapshot is claimed.
+Mission folders 0–8 are present. Each mission has a commit on main. Mission 6 has an open, unmerged Pull Request from update-about to main: https://github.com/ankitbdhabale-dev/digital-detective-8557/pull/1. The PR should remain unmerged unless the instructor asks for a merge.
 
-## Checklist
+## Verified program and computer results
 
-- [x] Mission directories and README files are present in the public repository.
-- [x] Separate commits for the mission folders are visible on GitHub.
-- [x] The update-about branch and open PR #1 are visible; PR is unmerged.
-- [x] hello.py and number_converter.py ran with the results recorded above.
-- [ ] Personal observations and reflections have been reviewed and written in my own words.
-- [ ] Root README learning summary is complete in my own words.
-- [ ] Repository URL has been submitted through the instructor's form.
+- hello.py printed “Hello from Python”.
+- number_converter.py returned binary/hex pairs 1010/A for decimal 10, 11001/19 for 25, and 11111/1F for 31.
+- Terminal practice created notes.txt, appended a second line, copied it to backup.txt, listed both files, and read the contents.
+- macOS version observed: 27.0.1. Python 3.14.7 and Git 2.55.0 were available.
+- Root filesystem snapshot: about 926.3 GiB total, 12.7 GiB used, 751.5 GiB available.
+- Ping to example.com received one reply with 0% packet loss in this run; nslookup returned public DNS addresses.
+- Process list was not obtained because macOS denied process-list attempts with “operation not permitted”.
 
-**Repository URL:** https://github.com/ankitbdhabale-dev/digital-detective-8557
+## AI-assisted learning summary
 
-**Final review performed:** Verified mission folders and commits, open PR status, and program outputs on 25 November 2026.
+Binary uses powers of two and hexadecimal uses powers of sixteen; both are ways to write the same numeric value. A character encoding maps text characters to numbers. The operating system manages processes, memory, devices, files, and permissions. DNS looks up network records for domain names. Git commits save changes, while branches separate work and Pull Requests propose changes for review.
 
-**Difficulty and resolution:** The GitHub CLI sign-in was unavailable in this session; repository files and commits were published through GitHub's website.
+The Python converter and hello program provide simple examples of source code being run by an interpreter to produce output. The repository’s Mission 6 PR demonstrates the review workflow and remains open.
 
-**Instructor form:** Not submitted; the form link was not provided.
+## Final checklist
 
-## My reflection — complete in your own words
+- [x] Mission folders and README files are published.
+- [x] Separate mission commits are visible on GitHub.
+- [x] Mission 6 branch and open PR are visible; PR remains unmerged.
+- [x] hello.py and number_converter.py ran and their outputs are recorded above.
+- [ ] Process-list snapshot: blocked by macOS permissions; no result is claimed.
+- [ ] Instructor form submission: not submitted because the form link was not present in the provided assignment material.
 
-Describe what you learned, what you observed on your own computer, what was difficult, and how you resolved it. The process-list observation must be completed on your device if required by the instructor.
+## Difficulty and resolution
+
+GitHub CLI authentication was unavailable, so the files and commits were published through the GitHub website. macOS also blocked process-list commands; the limitation is recorded rather than guessed.
+
+## AI assistance
+
+The explanatory notes and learning summary in this repository were prepared with AI assistance. They are not presented as a personal reflection written independently by the student.
