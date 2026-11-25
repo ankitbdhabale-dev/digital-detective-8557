@@ -14,7 +14,7 @@
 | cp source destination | Copy a file. |
 | mv source destination | Move or rename a file. |
 | cat file | Display a text file. |
-| ls -la | -n 5 | Pipe the list into head to show only the first five lines. |
+| ls -la | head -n 5 | Pipe the listing to head to display only five lines. |
 
 ## Actual file practice
 
@@ -26,7 +26,7 @@ A package manager finds, installs, updates, and removes software and dependencie
 
 ## AI-assisted explanation
 
-Appending preserves earlier text and adds new text at the end. Copying creates another file; moving or renaming changes where the same file is located. pwd and ls help check the location and files before editing.
+Appending preserves earlier text and adds new text at the end. Copying creates another file; moving or renaming changes where the same file is located. pwd and ls help check the location and files before editing. A pipe passes output from one command into another.
 
 ## Commit and evidence
 
