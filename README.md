@@ -24,10 +24,10 @@ IPOS, hardware and software, Terminal commands, safe file handling, operating sy
 
 From mission-05-numbers-data/, run python3 number_converter.py, enter a non-negative integer, and compare the output with manual conversion.
 
-## Learning summary
+## AI-assisted study summary
 
-Complete this section in your own words after reviewing and verifying the missions.
+The converter showed that one whole number can be written in decimal, binary, and hexadecimal. A Git commit saves a set of changes, while a Pull Request lets people review changes from a branch before merging. In this assisted session, hello.py printed “Hello from Python”; the converter returned 1010/A for 10, 11001/19 for 25, and 11111/1F for 31. Personal learning reflection should be added by the student.
 
 ## Completion status
 
-The mission folders and commits are published in this public repository. The Mission 6 branch update-about has an open, unmerged Pull Request: https://github.com/ankitbdhabale-dev/digital-detective-8557/pull/1. Personal observations and reflections still need your review, and the repository URL still needs to be submitted through the instructor's form.
+The mission folders and commits are published in this public repository. The Mission 6 branch update-about has an open, unmerged Pull Request: https://github.com/ankitbdhabale-dev/digital-detective-8557/pull/1. Personal observations and reflections still need review, and the repository URL still needs submission through the instructor's form.
